@@ -5,8 +5,8 @@ Conócenos, equipo de trabajo en Introducción a la Mecatrónica.
 
 ## José Ismael Guerrero Román
 Imagen 
-- **Carrera:** Ing Mecatrónica
-- **Cosas que me gustan hacer:** Videojuegos, F1, Música
+- **Carrera:** _Ing Mecatrónica_
+- **Cosas que me gustan hacer:** _Videojuegos, F1, Música_
 - **Cosas de las que estoy orgulloso:**
 - **Edad:** 18
 - **Cumpleaños:** 23 Julio
