@@ -4,10 +4,7 @@
 ---
 
 ## José Ismael Guerrero Román
-
-![Foto_Joy](recursos/imgs/Joy.jpg)
-
-<img src="recursos/imgs/Joy.jpg" alt="Foto_Joy" width="350">
+<img src="../recursos/imgs/Joy.jpg" alt="Foto_Joy" width="420">
 - **Carrera:** Ing Mecatrónica
 - **Cosas que me gustan hacer:** Videojuegos, F1, Música y Tecnología
 - **Cosas de las que estoy orgulloso:** Mi familia, Mis logros y mi trayectoria académica 
