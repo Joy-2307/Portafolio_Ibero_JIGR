@@ -1,5 +1,3 @@
-# Equipo de trabajo
----
 - Conócenos, equipo de trabajo en Introducción a la Mecatrónica.
 ---
 ## José Ismael Guerrero Román
