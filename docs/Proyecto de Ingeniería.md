@@ -1,5 +1,3 @@
-# Proyecto de Ingeniería.
----
 - En este apartado subire todos mis trabajos, proyectos relacionados a la materia de Proyecto de ingeniería.
 ---
 # Trabajos semanales.
@@ -10,6 +8,6 @@
 ---
 
 ---
-## Proyecto final.
+# Proyecto final.
 
 ---
