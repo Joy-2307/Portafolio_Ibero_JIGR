@@ -13,9 +13,10 @@ Imagen
 ---
 ## Gerardo Esquivel De Luna
 Imagen
-**Carrera:** Ing Mecatrónica
-**Cosas que me gustan hacer:** Videojuegos, F1, Música
-**Cosas de las que estoy orgulloso:**
-**Edad:** 18
-**Cumpleaños:** 23 Julio
+- **Nombre del proyecto:** _Mi Proyecto_  
+- **Equipo / Autor(es):** _Nombre(s)_  
+- **Curso / Asignatura:** _Nombre del curso_  
+- **Fecha:** _DD/MM/AAAA_  
+- **Descripción breve:** _Una o dos líneas que expliquen qué hace y por qué._
+
 
