@@ -1,6 +1,6 @@
 # Portafolio Ibero 
 
-Bienvenido 👋  
+Bienvenido 
 Esta es mi **Portafolio** para cursos y proyectos a lo largo de mi Carrera.
 ---
 
