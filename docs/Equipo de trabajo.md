@@ -4,7 +4,7 @@ Conócenos, equipo de trabajo en Introducción a la Mecatrónica.
 ---
 
 ## José Ismael Guerrero Román
-Imagen 
+
 - **Carrera:** _Ing Mecatrónica_
 - **Cosas que me gustan hacer:** _Videojuegos, F1, Música_
 - **Cosas de las que estoy orgulloso:**
@@ -12,7 +12,7 @@ Imagen
 - **Cumpleaños:** 23 Julio
 ---
 ## Gerardo Esquivel De Luna
-Imagen
+
 - **Nombre del proyecto:** _Mi Proyecto_  
 - **Equipo / Autor(es):** _Nombre(s)_  
 - **Curso / Asignatura:** _Nombre del curso_  
