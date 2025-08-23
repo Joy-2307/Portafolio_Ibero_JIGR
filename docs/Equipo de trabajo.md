@@ -4,7 +4,8 @@ Conócenos, equipo de trabajo en Introducción a la Mecatrónica.
 ---
 
 ## José Ismael Guerrero Román
-<img src="../recursos/imgs/Joy.jpg" alt="Foto_Joy" width="420">
+<img src="recursos/imgs/Joy.jpg" alt="Foto_Joy" width="350">
+
 - **Carrera:** Ing Mecatrónica
 - **Cosas que me gustan hacer:** Videojuegos, F1, Música y Tecnología
 - **Cosas de las que estoy orgulloso:** Mi familia, Mis logros y mi trayectoria académica 
