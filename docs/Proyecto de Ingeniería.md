@@ -3,7 +3,6 @@
 ---
 # Trabajos semanales.
 ---
-
 - Este apartado mostrará mis trabajos realizados a lo largo de las semanas.
   
 ---
@@ -12,5 +11,4 @@
 
 ---
 # Proyecto final.
-
 ---
