@@ -27,8 +27,8 @@
 ---
 
 - **Carrera:** Ing Mecatrónica
-- **Cosas que me gustan hacer:** Me gusta jugar videojuegos, hacer montañismo en bicicleta y los animales.
-- **Cosas de las que estoy orgulloso:** De ser una persona perseverante, que no se rinde fácilmente, por haber superado momentos difíciles y seguir avanzando y por ser alguien que ayuda a los demás cuando lo necesitan
+- **Cosas que me gustan hacer:** videojuegos, montañismo, ciclismo.
+- **Cosas de las que estoy orgulloso:** De ser una persona perseverante, que no se rinde fácilmente, por haber superado momentos difíciles y seguir avanzando y por ser alguien que ayuda a los demás cuando lo necesitan.
 - **Edad:** 18
 - **Cumpleaños:** 18 Julio
 - **Contacto:** 204655@iberopuebla.mx
