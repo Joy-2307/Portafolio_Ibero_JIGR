@@ -2,9 +2,9 @@
 
 ## 1) Resumen  
 **Nombre del proyecto:** Control de LED con ESP32  
-**Equipo / Autor(es):** [Tu nombre o equipo]  
-**Curso / Asignatura:** [Nombre del curso]  
-**Fecha:** [DD/MM/AAAA]  
+**Equipo / Autor(es):** José Ismael Guerrero Román y Gerardo Esquivel De Luna  
+**Curso / Asignatura:** Introducción a la Mecatrónica
+**Fecha:** 19/09/25
 **Descripción breve:** Se programó un microcontrolador ESP32 para controlar un LED en dos modos: encendido/apagado con un botón físico y encendido/apagado mediante comandos enviados por Bluetooth desde la terminal.  
 
 ---
