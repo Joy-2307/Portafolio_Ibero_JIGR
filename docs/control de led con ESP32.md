@@ -1,36 +1,37 @@
-# Control de LED con ESP32 mediante botón y Bluetooth  
+# Control de LED con ESP32 (botón, Bluetooth e intervalos)  
 
 ## 1) Resumen  
 **Nombre del proyecto:** Control de LED con ESP32  
 **Equipo / Autor(es):** José Ismael Guerrero Román y Gerardo Esquivel De Luna  
 **Curso / Asignatura:** Introducción a la Mecatrónica
 **Fecha:** 19/09/25
-**Descripción breve:** Se programó un microcontrolador ESP32 para controlar un LED en dos modos: encendido/apagado con un botón físico y encendido/apagado mediante comandos enviados por Bluetooth desde la terminal.  
+**Descripción breve:** Se programó un microcontrolador ESP32 para controlar un LED en tres casos distintos: mediante un botón físico, a través de comandos enviados por Bluetooth y con parpadeo automático en intervalos de tiempo definidos.  
 
 ---
 
 ## 2) Objetivos  
 **General:**  
-Implementar el control de un LED con ESP32 utilizando tanto entradas físicas (botón) como comunicación inalámbrica (Bluetooth).  
+Explorar diferentes formas de control de un LED con ESP32 aplicando entradas físicas, comunicación inalámbrica y programación de temporización.  
 
 **Específicos:**  
-- OE1: Programar el ESP32 para que al presionar un botón se encienda un LED y al soltarlo se apague.  
-- OE2: Configurar la comunicación Bluetooth del ESP32 para recibir comandos desde la terminal.  
-- OE3: Programar la lógica para que el LED se encienda con el comando `"on"` y se apague con el comando `"off"`.  
-- OE4: Documentar el código y resultados con fotografías y videos como evidencia.  
+- OE1: Programar el ESP32 para que un botón controle el encendido y apagado inmediato del LED.  
+- OE2: Configurar la comunicación Bluetooth del ESP32 para que el LED responda a comandos enviados desde la terminal (`"on"` y `"off"`).  
+- OE3: Implementar un programa que haga parpadear el LED en intervalos de tiempo definidos.  
+- OE4: Documentar con fotografías y videos el código y el funcionamiento de cada caso.  
 
 ---
 
 ## 3) Alcance y Exclusiones  
 **Incluye:**  
 - Programación del ESP32 en Arduino IDE (o entorno equivalente).  
-- Implementación de control físico mediante botón.  
-- Implementación de control remoto mediante Bluetooth con comandos `"on"` y `"off"`.  
-- Evidencias en fotos y videos del funcionamiento.  
+- Caso 1: Control mediante botón físico.  
+- Caso 2: Control mediante Bluetooth con comandos `"on"` y `"off"`.  
+- Caso 3: Parpadeo automático del LED en intervalos.  
+- Evidencias en fotos del código y videos del funcionamiento.  
 
 **No incluye:**  
-- Control de más de un LED u otros actuadores.  
-- Desarrollo de aplicaciones móviles dedicadas (solo terminal).  
+- Control de múltiples LEDs o actuadores.  
+- Desarrollo de aplicaciones móviles personalizadas.  
 - Integración con plataformas IoT externas.  
 
 ---
@@ -38,7 +39,7 @@ Implementar el control de un LED con ESP32 utilizando tanto entradas físicas (b
 ## 4) Requisitos  
 **Software:**  
 - Arduino IDE con soporte para ESP32.  
-- Librerías de Bluetooth para ESP32.  
+- Librerías necesarias para comunicación Bluetooth.  
 - Monitor serie o aplicación de terminal Bluetooth.  
 
 **Hardware:**  
@@ -50,7 +51,7 @@ Implementar el control de un LED con ESP32 utilizando tanto entradas físicas (b
 
 **Conocimientos previos:**  
 - Programación básica en Arduino/ESP32.  
-- Conceptos de entradas digitales (lectura de botones).  
-- Manejo de salidas digitales (encendido de LED).  
-- Comunicación básica vía Bluetooth.  
-
+- Manejo de entradas digitales (lectura de botones).  
+- Control de salidas digitales (encendido y apagado de LED).  
+- Conceptos de comunicación básica vía Bluetooth.  
+- Uso de funciones de temporización (`delay`, `millis`, etc.) para parpadeo en intervalos.  
