@@ -141,3 +141,6 @@ void loop() {
 ```
 
 ---
+
+[Video de Práctica Y códigos](https://iberopuebla-my.sharepoint.com/:f:/g/personal/203563_iberopuebla_mx/EhkJHZAIqP9FguhG2vSfIz8BWP6sGHuCXWlVYsU_gA8Pzg?e=9fY8qf)
+
