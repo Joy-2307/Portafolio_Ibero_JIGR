@@ -67,7 +67,7 @@ Este repositorio contiene tres ejemplos básicos para controlar un LED con un ES
 
 ---
 
-## 🔘 1. Control con Botón (`led_boton.ino`)
+##  1. Control con Botón 
 
 ```cpp
 const int led = 33;
@@ -87,3 +87,57 @@ void loop() {
     digitalWrite(led, 0);  // LED apagado cuando no se presiona
   }
 }
+
+```
+
+---
+
+## 2. Control con Bluetooth
+
+```cpp
+#include "BluetoothSerial.h"
+BluetoothSerial SerialBT;
+
+const int led = 33;
+
+void setup() {
+  Serial.begin(115200);
+  SerialBT.begin("ESP32-de-los-PAPITOS"); // Nombre del dispositivo Bluetooth
+  pinMode(led, OUTPUT);
+}
+
+void loop() {
+  if (SerialBT.available()) {
+    String mensaje = SerialBT.readString();
+    Serial.println("Recibido: " + mensaje);
+
+    if (mensaje == "on") {
+      digitalWrite(led, 1);   // LED encendido por comando
+    } 
+    else if (mensaje == "off") {
+      digitalWrite(led, 0);   // LED apagado por comando
+    }
+  }
+  delay(1000);
+}
+```
+
+---
+## 3. Intervalos de Parpadeo
+
+```cpp
+const int led = 33;
+
+void setup() {
+  pinMode(led, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(led, HIGH);  // LED encendido
+  delay(2000);              // Espera 2 segundos
+  digitalWrite(led, LOW);   // LED apagado
+  delay(2000);              // Espera 2 segundos
+}
+```
+
+---
