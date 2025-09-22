@@ -54,4 +54,36 @@ Explorar diferentes formas de control de un LED con ESP32 aplicando entradas fí
 - Manejo de entradas digitales (lectura de botones).  
 - Control de salidas digitales (encendido y apagado de LED).  
 - Conceptos de comunicación básica vía Bluetooth.  
-- Uso de funciones de temporización (`delay`, `millis`, etc.) para parpadeo en intervalos.  
+- Uso de funciones de temporización (`delay`, `millis`, etc.) para parpadeo en intervalos.
+
+---
+
+# Programas ESP32 - Control de LED
+
+Este repositorio contiene tres ejemplos básicos para controlar un LED con un ESP32:  
+1. Encender y apagar con un botón físico.  
+2. Encender y apagar mediante comandos enviados por Bluetooth.  
+3. Hacer parpadear el LED en intervalos de 2 segundos.  
+
+---
+
+## 🔘 1. Control con Botón (`led_boton.ino`)
+
+```cpp
+const int led = 33;
+const int btn = 27;
+
+void setup() {
+  Serial.begin(115200);
+  pinMode(led, OUTPUT);
+  pinMode(btn, INPUT);
+}
+
+void loop() {
+  int estado = digitalRead(btn);
+  if (estado == 1) {
+    digitalWrite(led, 1);  // LED encendido mientras el botón esté presionado
+  } else {
+    digitalWrite(led, 0);  // LED apagado cuando no se presiona
+  }
+}
