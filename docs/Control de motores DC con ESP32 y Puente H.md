@@ -93,5 +93,110 @@ void loop() {
   delay(1000);
 }
 ```
+---
+##  Práctica 2 – Control de potencia de un motor DC con ESP32 y PWM
 
+### 1) Resumen  
+**Nombre del proyecto:** Control de Potencia de Motor DC  
+**Equipo / Autor(es):** José Ismael Guerrero Román y Gerardo Esquivel De Luna  
+**Curso / Asignatura:** Introducción a la Mecatrónica  
+**Fecha:** 10/oct/25  
+**Descripción breve:** Se utilizó un ESP32 y un puente H (L298N) alimentado a 6 V para controlar la velocidad de un motor DC mediante modulación por ancho de pulso (PWM), variando progresivamente su potencia desde el valor máximo hasta el mínimo.
+
+---
+
+### 2) Objetivos  
+**General:**  
+Regular la velocidad de un motor DC utilizando señales PWM generadas por el ESP32.  
+
+**Específicos:**  
+- OE1: Configurar un canal PWM en el ESP32 con la frecuencia y resolución adecuadas.  
+- OE2: Implementar un programa que incremente y luego disminuya la velocidad del motor.  
+- OE3: Observar y analizar la respuesta del motor ante los diferentes niveles de potencia.  
+
+---
+
+### 3) Alcance y Exclusiones  
+**Incluye:**  
+- Control de velocidad mediante modulación PWM.  
+- Configuración y uso del puente H con alimentación de 6 V.  
+- Conexión entre el ESP32, el puente H y el motor DC.  
+
+**No incluye:**  
+- Cambio de dirección del motor.  
+- Lectura de sensores de velocidad o retroalimentación.  
+- Control remoto o comunicación inalámbrica.  
+
+---
+
+### 4) Requisitos  
+
+**Software:**  
+- Arduino IDE 2.x o superior.  
+- Librería del ESP32 instalada desde el Gestor de Placas.  
+
+**Hardware:**  
+- ESP32 DevKit.  
+- Puente H L298N.  
+- Motor DC de 6 V.  
+- Fuente externa de 6 V.  
+- Protoboard y cables Dupont.  
+
+**Conocimientos previos:**  
+- Programación básica en Arduino y ESP32.  
+- Conceptos de modulación por ancho de pulso (PWM).  
+- Electrónica básica y conexiones con puente H.  
+
+---
+
+### 5) Código
+
+```cpp
+#define IN1 27
+#define IN2 14
+#define PWM_PIN 12
+
+// Configuración del canal PWM
+#define PWM_CHANNEL 0
+#define PWM_FREQ 1000   // Frecuencia de 1 kHz
+#define PWM_RES 8       // Resolución de 8 bits (valores 0 a 255)
+
+void setup() {
+  /* Configurar pines de salida */
+  pinMode(IN1, OUTPUT);
+  pinMode(IN2, OUTPUT);
+
+  /* Configurar canal PWM */
+  ledcSetup(PWM_CHANNEL, PWM_FREQ, PWM_RES);
+
+  /* Asociar el pin físico al canal PWM */
+  ledcAttachPin(PWM_PIN, PWM_CHANNEL);
+}
+
+void loop() {
+  /* GIRO HACIA ADELANTE */
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, HIGH);
+
+  /* Aumentar gradualmente la velocidad */
+  for (int i = 0; i <= 255; i++) {
+    ledcWrite(PWM_CHANNEL, i);
+    delay(10);  // Aumento progresivo
+  }
+
+  /* Mantener velocidad máxima */
+  delay(1000);
+
+  /* Disminuir gradualmente la velocidad */
+  for (int i = 255; i >= 0; i--) {
+    ledcWrite(PWM_CHANNEL, i);
+    delay(10);  // Disminución progresiva
+  }
+
+  /* Detener el motor */
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, LOW);
+  delay(1000);
+}
+```
 
