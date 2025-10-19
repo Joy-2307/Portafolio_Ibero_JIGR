@@ -141,6 +141,31 @@ void loop() {
 ```
 
 ---
+# Videos 
+---
+## Control, solo por ESP 32
 
-[Video de Práctica Y códigos](https://iberopuebla-my.sharepoint.com/:f:/g/personal/203563_iberopuebla_mx/EhkJHZAIqP9FguhG2vSfIz8BWP6sGHuCXWlVYsU_gA8Pzg?e=9fY8qf)
+<video width="640" height="360" controls>
+  <source src="../recursos/imgs/ESP32.mp4" type="video/mp4">
+  Tu navegador no soporta la reproducción de video.
+</video>
+
+---
+## Control por bluetooth
+
+<video width="640" height="360" controls>
+  <source src="../recursos/imgs/ESP32Bth.mp4" type="video/mp4">
+  Tu navegador no soporta la reproducción de video.
+</video>
+
+---
+## Control por botón
+
+<video width="640" height="360" controls>
+  <source src="../recursos/imgs/ESP32Btn.mp4" type="video/mp4">
+  Tu navegador no soporta la reproducción de video.
+</video>
+
+---
+
 
