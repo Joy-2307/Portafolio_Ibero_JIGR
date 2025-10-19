@@ -145,7 +145,7 @@ void loop() {
 ---
 ## Control, solo por ESP 32
 
-<video width="640" height="360" controls>
+<video width="400"  controls>
   <source src="../recursos/imgs/ESP32.MP4" type="video/mp4">
   Tu navegador no soporta la reproducción de video.
 </video>
@@ -153,7 +153,7 @@ void loop() {
 ---
 ## Control por bluetooth
 
-<video width="640" height="360" controls>
+<video width="400" controls>
   <source src="../recursos/imgs/ESP32Bth.mp4" type="video/mp4">
   Tu navegador no soporta la reproducción de video.
 </video>
@@ -161,7 +161,7 @@ void loop() {
 ---
 ## Control por botón
 
-<video width="640" height="360" controls>
+<video width="400" controls>
   <source src="../recursos/imgs/ESP32Btn.mp4" type="video/mp4">
   Tu navegador no soporta la reproducción de video.
 </video>
