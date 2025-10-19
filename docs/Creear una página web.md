@@ -4,7 +4,7 @@
 **Nombre del proyecto:** Publicación de página web con GitHub Pages  
 **Equipo / Autor(es):** José Ismael Guerrero Román y Gerardo Esquivel De Luna  
 **Curso / Asignatura:** Introducción a la Mecatrónica  
-**Fecha:**   
+**Fecha:**   22/Ago/25
 **Descripción breve:**  
 En esta práctica se creó y publicó una página web estática utilizando **GitHub Pages**, una herramienta gratuita que permite alojar sitios web directamente desde un repositorio en GitHub. Se aprendió a crear el repositorio, subir archivos HTML y configurar la publicación en línea.
 
