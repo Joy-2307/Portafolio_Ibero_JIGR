@@ -2,7 +2,7 @@
 
 ---
 
-## 🧩 Práctica 1 – Control de dirección de un motor DC con ESP32 y puente H
+##  Práctica 1 – Control de dirección de un motor DC con ESP32 y puente H
 
 ### 1) Resumen  
 **Nombre del proyecto:** Control de Dirección de Motor DC  
@@ -59,12 +59,4 @@ Controlar la dirección de rotación de un motor DC mediante el uso de un puente
 
 ### 5) Código
 
-```bash
-# 1) Clonar
-git clone https://github.com/<usuario>/<repo>.git
-cd <repo>
-
-# 2) Abrir el archivo .ino en Arduino IDE
-# 3) Conectar el ESP32 por USB y seleccionar el puerto correcto
-# 4) Subir el programa
-
+```cpp
