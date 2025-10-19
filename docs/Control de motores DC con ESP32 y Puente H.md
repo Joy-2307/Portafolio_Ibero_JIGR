@@ -6,9 +6,9 @@
 
 ### 1) Resumen  
 **Nombre del proyecto:** Control de Dirección de Motor DC  
-**Equipo / Autor(es):** [Tu nombre / equipo]  
+**Equipo / Autor(es):**  José Ismael Guerrero Román y Gerardo Esquivel De Luna 
 **Curso / Asignatura:** Introducción a la Mecatrónica  
-**Fecha:** [DD/MM/AAAA]  
+**Fecha:**   03/oct/25
 **Descripción breve:** Se controló un motor de corriente directa (DC) mediante un ESP32 y un puente H (L298N), alternando su sentido de giro hacia adelante y hacia atrás, con pausas de detención entre cada cambio.
 
 ---
@@ -57,7 +57,7 @@ Controlar la dirección de rotación de un motor DC mediante el uso de un puente
 
 ---
 
-### 5) Instalación
+### 5) Código
 
 ```bash
 # 1) Clonar
