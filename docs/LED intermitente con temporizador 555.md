@@ -61,7 +61,7 @@ Implementar un circuito con temporizador 555 en modo astable para controlar el p
 
 ---
 
-<img src="../recursos/imgs/555.png" alt="Intermitente" width="200">
+<img src="../recursos/imgs/555.png" alt="Intermitente" width="600">
 
 
 
