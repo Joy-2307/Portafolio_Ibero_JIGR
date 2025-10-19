@@ -7,8 +7,11 @@
 ### 1) Resumen  
 **Nombre del proyecto:** Control de Dirección de Motor DC  
 **Equipo / Autor(es):**  José Ismael Guerrero Román y Gerardo Esquivel De Luna 
-**Curso / Asignatura:** Introducción a la Mecatrónica  
+
+**Curso / Asignatura:** Introducción a la Mecatrónica 
+
 **Fecha:**   03/oct/25
+
 **Descripción breve:** Se controló un motor de corriente directa (DC) mediante un ESP32 y un puente H (L298N), alternando su sentido de giro hacia adelante y hacia atrás, con pausas de detención entre cada cambio.
 
 ---
