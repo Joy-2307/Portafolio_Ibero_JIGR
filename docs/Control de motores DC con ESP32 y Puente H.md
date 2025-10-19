@@ -6,6 +6,7 @@
 
 ### 1) Resumen  
 **Nombre del proyecto:** Control de Dirección de Motor DC  
+
 **Equipo / Autor(es):**  José Ismael Guerrero Román y Gerardo Esquivel De Luna 
 
 **Curso / Asignatura:** Introducción a la Mecatrónica 
