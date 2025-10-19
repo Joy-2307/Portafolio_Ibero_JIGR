@@ -94,6 +94,13 @@ void loop() {
 }
 ```
 ---
+## videos 
+<video width="640" height="360" controls>
+  <source src="../recursos/imgs/motor1.mp4" type="video/mp4">
+  Tu navegador no soporta la reproducción de video.
+</video>
+
+---
 ##  Práctica 2 – Control de potencia de un motor DC con ESP32 y PWM
 
 ### 1) Resumen  
@@ -199,4 +206,10 @@ void loop() {
   delay(1000);
 }
 ```
+---
+## videos 
+<video width="640" height="360" controls>
+  <source src="../recursos/imgs/motor2.mp4" type="video/mp4">
+  Tu navegador no soporta la reproducción de video.
+</video>
 
