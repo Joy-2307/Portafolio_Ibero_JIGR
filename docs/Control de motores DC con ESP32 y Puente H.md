@@ -60,3 +60,37 @@ Controlar la dirección de rotación de un motor DC mediante el uso de un puente
 ### 5) Código
 
 ```cpp
+
+
+#define in1 27
+#define in2 14
+
+void setup() {
+  /* Declarar pines como salida */
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
+}
+
+void loop() {
+  /* ADELANTE */
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, HIGH);
+  delay(1000);
+
+  /* ALTO */
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, LOW);
+  delay(1000);
+
+  /* ATRÁS */
+  digitalWrite(in1, HIGH);
+  digitalWrite(in2, LOW);
+  delay(1000);
+
+  /* ALTO */
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, LOW);
+  delay(1000);
+}
+
+´´´
