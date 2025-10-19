@@ -55,9 +55,11 @@ Implementar un circuito con temporizador 555 en modo astable para controlar el p
 
 ---
 <video width="640" height="360" controls>
-  <source src="../recursos/videos/intermitente.mp4" type="video/mp4">
+  <source src="../recursos/imgs/intermitente.mp4" type="video/mp4">
   Tu navegador no soporta la reproducción de video.
 </video>
+
+---
 
 <img src="../recursos/imgs/555.png" alt="Intermitente" width="200">
 
