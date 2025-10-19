@@ -54,7 +54,7 @@ Implementar un circuito con temporizador 555 en modo astable para controlar el p
 - Manejo de protoboard y multímetro.  
 
 ---
-<video width="640" height="360" controls>
+<video width="400" controls>
   <source src="../recursos/imgs/intermitente.mp4" type="video/mp4">
   Tu navegador no soporta la reproducción de video.
 </video>
