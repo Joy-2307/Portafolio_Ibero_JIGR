@@ -212,7 +212,7 @@ void loop() {
 ```
 ---
 ## videos 
-<video width="640" height="360" controls>
+<video width="400" controls>
   <source src="../recursos/imgs/motor2.mp4" type="video/mp4">
   Tu navegador no soporta la reproducción de video.
 </video>
