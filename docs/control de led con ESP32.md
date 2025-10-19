@@ -146,7 +146,7 @@ void loop() {
 ## Control, solo por ESP 32
 
 <video width="640" height="360" controls>
-  <source src="../recursos/imgs/ESP32.mp4" type="video/mp4">
+  <source src="../recursos/imgs/ESP32.MP4" type="video/mp4">
   Tu navegador no soporta la reproducción de video.
 </video>
 
