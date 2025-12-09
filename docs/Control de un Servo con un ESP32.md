@@ -20,7 +20,7 @@ El microcontrolador **ESP32** es idóneo para esta tarea, ya que su *hardware* p
 
 ---
 
-## 🛠️ Procedimiento Experimental
+##  Procedimiento Experimental
 
 ### Materiales Requeridos
 
