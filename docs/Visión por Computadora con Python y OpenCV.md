@@ -7,7 +7,7 @@ Esta sección documenta diversas prácticas de Visión por Computadora realizada
 ## Entornos
 
 
-<img src="../recursos/imgs/entornos.png" width="400" alt="coche">
+<img src="../recursos/imgs/entornos.jpg" width="400" alt="coche">
 
 
 ## 1. Captura básica y visualización
@@ -44,7 +44,7 @@ cv2.destroyAllWindows()
 Aplica un filtro de color para transformar el video capturado a escala de grises, reduciendo la complejidad de la imagen a una sola dimensión de intensidad. Este es un paso fundamental en muchos algoritmos de visión por computadora para la detección de bordes y el procesamiento eficiente. 
 
 
-<img src="../recursos/imgs/bn.jpeg" width="400" alt="coche">
+<img src="../recursos/imgs/bn.jpg" width="400" alt="coche">
 
 
 cpp
@@ -81,7 +81,7 @@ cv2.destroyAllWindows()
 Al convertir de BGR (formato nativo de OpenCV) a RGB (formato estándar de visualización), el orden de los canales se invierte. Esta reordenación produce un predominio de tonos azules y cianes en la visualización, ya que los valores asignados al canal Azul se mueven al canal Rojo (índice 2) y viceversa. 
 
 
-<img src="../recursos/imgs/filtroazul.jpeg" width="400" alt="coche">
+<img src="../recursos/imgs/filtroazul.jpg" width="400" alt="coche">
 
 
 cpp
@@ -148,7 +148,7 @@ cv2.destroyAllWindows()
 Para obtener una dominante de tonos rosados o magenta, se utiliza la combinación de los canales Rojo y Azul mientras se anula completamente el canal Verde. En la matriz BGR de OpenCV, el canal Verde se encuentra en el índice 1. 
 
 
-<img src="../recursos/imgs/filtrorosa.jpeg" width="400" alt="coche">
+<img src="../recursos/imgs/filtrorosa.jpg" width="400" alt="coche">
 
 
 cpp
@@ -190,7 +190,7 @@ Esta sección demuestra la capacidad de dibujar figuras geométricas (líneas, r
 Este script dibuja una línea diagonal de esquina a esquina y un rectángulo delimitador que enmarca el video. 
 
 
-<img src="../recursos/imgs/rayaycuadrado.jpeg" width="400" alt="coche">
+<img src="../recursos/imgs/rayaycuadrado.jpg" width="400" alt="coche">
 
 
 cpp
@@ -227,7 +227,7 @@ cv2.destroyAllWindows()
 Este ejercicio combina varias figuras geométricas y introduce el concepto de animación usando variables dinámicas (cx, cy). La actualización constante de estas variables simula el movimiento del círculo a través del frame, lo cual representa un concepto clave para visualizar el centro de un objeto en movimiento en aplicaciones de tracking. 
 
 
-<img src="../recursos/imgs/contextoyfiguras.jpeg" width="400" alt="coche">
+<img src="../recursos/imgs/contextoyfiguras.jpg" width="400" alt="coche">
 
 
 cpp
@@ -276,7 +276,7 @@ cv2.destroyAllWindows()
 Este ejercicio demuestra el concepto de Región de Interés (ROI) a través de la indexación de matrices de NumPy. Se aplica un filtro de color diferente a cada cuadrante del frame al anular selectivamente un canal de color en una porción específica de la matriz de la imagen. 
 
 
-<img src="../recursos/imgs/mascara.jpeg" width="400" alt="coche">
+<img src="../recursos/imgs/mascara.jpg" width="400" alt="coche">
 
 
 cpp
