@@ -45,6 +45,8 @@ El microcontrolador **ESP32** es idóneo para esta tarea, ya que su *hardware* p
 
 Este código implementa el control secuencial del servo motor, utilizando la librería LEDC del ESP32 para generar la señal PWM.
 
+---
+
 ```cpp
 /**
  * @file Control_Servo_Libreria.ino
@@ -96,6 +98,7 @@ void loop() {
   delay(1500);
 }
 ```
+
 ---
 
 ##  Análisis de Resultados Detallado
