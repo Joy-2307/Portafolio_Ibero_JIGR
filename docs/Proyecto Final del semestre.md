@@ -726,9 +726,24 @@ La validación del proyecto se centró en demostrar el funcionamiento y la integ
 ### 6.2. Conclusión del Proyecto
 
 El proyecto de la Plataforma de Balanceo de Bola demostró la aplicación efectiva de la **Ingeniería de Control** y la **Visión por Computadora** en un sistema mecatrónico funcional. Se logró integrar con éxito tres dominios:
-
 1.  El **procesamiento de alto nivel** (Python/OpenCV).
 2.  La **comunicación inalámbrica** (Bluetooth).
 3.  El **control de actuadores de precisión** (Servomotores/ESP32).
+
+## Fotos y videos 
+
+<img src="../recursos/imgs/fp1.jpg" alt="Foto_Joy" width="200">
+
+<img src="../recursos/imgs/fp2.jpg" alt="Foto_Joy" width="200">
+
+<img src="../recursos/imgs/fp3.jpg" alt="Foto_Joy" width="200">
+
+<img src="../recursos/imgs/fp4.jpg" alt="Foto_Joy" width="200">
+
+<video width="400" controls>
+  <source src="../recursos/imgs/vp1.mp4" type="video/mp4">
+  Tu navegador no soporta la reproducción de video.
+</video>
+
 
 Este sistema valida la capacidad de la arquitectura **PC-Microcontrolador** para resolver problemas de **control dinámico** en lazo cerrado que requieren un alto poder de cómputo para la detección de errores en tiempo real.
