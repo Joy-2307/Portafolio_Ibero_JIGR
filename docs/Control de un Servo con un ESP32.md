@@ -116,7 +116,7 @@ Se cumplió el objetivo de lograr la **secuenciación controlada del servomotor*
 
 ## video de la práctica 
 <video width="400" controls>
-  <source src="../recursos/imgs/vs.mp4" type="video/mp4">
+  <source src="../recursos/imgs/vs1.mp4" type="video/mp4">
   Tu navegador no soporta la reproducción de video.
 </video>
 
