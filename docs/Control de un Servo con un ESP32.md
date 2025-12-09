@@ -41,7 +41,7 @@ El microcontrolador **ESP32** es idóneo para esta tarea, ya que su *hardware* p
 
 ---
 
-## 💻 Código Fuente (Arduino / ESP32)
+##  Código Fuente (Arduino / ESP32)
 
 Este código implementa el control secuencial del servo motor, utilizando la librería LEDC del ESP32 para generar la señal PWM.
 
@@ -113,7 +113,10 @@ Los resultados obtenidos durante la fase de pruebas confirmaron la viabilidad de
 Esta actividad de laboratorio culminó exitosamente al **consolidar la comprensión práctica** del mecanismo de control de **actuadores angulares** mediante la técnica **PWM** en la plataforma ESP32.
 
 Se cumplió el objetivo de lograr la **secuenciación controlada del servomotor** a las posiciones 0°, 90° y 180°, lo cual implicó la **validación completa** de la configuración electrónica (conexión y suministro de energía) y la correcta implementación del *software*. La práctica reforzó el entendimiento de la **relación crítica y directa** que existe entre la **frecuencia del pulso, el ciclo de trabajo** de la señal PWM y el **desplazamiento angular preciso** que se obtiene en el servomotor.
-  
-  // Esperar un momento en el grado mínimo
-  delay(1000); 
-}
+
+## video de la práctica 
+<video width="400" controls>
+  <source src="../recursos/imgs/vs.mp4" type="video/mp4">
+  Tu navegador no soporta la reproducción de video.
+</video>
+
