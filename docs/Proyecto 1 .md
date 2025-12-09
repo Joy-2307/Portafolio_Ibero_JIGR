@@ -1,12 +1,12 @@
-# 🤖 Proyecto Final: Carro Robot de Fútbol Controlado por PS4 (ESP32)
+#  Proyecto Final: Carro Robot de Fútbol Controlado por PS4 (ESP32)
 
-## 🎯 Objetivo del Proyecto
+##  Objetivo del Proyecto
 
 El proyecto consistió en el diseño y construcción de un **carro robot teledirigido** utilizando el microcontrolador **ESP32** y un **control PS4** (vía Bluetooth). El objetivo principal era crear una plataforma móvil con alta maniobrabilidad para participar y competir exitosamente en un torneo de fútbol de robots, moviendo una pelota y marcando goles.
 
 ---
 
-## ⚙️ Arquitectura y Tecnologías
+##  Arquitectura y Tecnologías
 
 La implementación se centró en la integración de tres áreas principales:
 
@@ -15,7 +15,7 @@ La implementación se centró en la integración de tres áreas principales:
 * **Driver de Motor:** Se utilizó un **Puente H (L298N o similar)** para gestionar la alta corriente requerida por los motores DC, ya que el ESP32 no puede alimentarlos directamente.
 * **Movimiento:** Se implementó **Tracción Diferencial** mediante el envío de señales PWM (Modulación por Ancho de Pulso) a cada motor, permitiendo movimientos precisos (avance, retroceso y giros).
 
-### 📋 Materiales Clave
+###  Materiales Clave
 | Componente | Función Principal |
 | :--- | :--- |
 | **ESP32 DevKit V1** | Cerebro del sistema, gestor de Bluetooth. |
@@ -27,7 +27,7 @@ La implementación se centró en la integración de tres áreas principales:
 
 ---
 
-## 📝 Procedimiento General
+##  Procedimiento General
 
 El proyecto se ejecutó mediante la colaboración de equipos especializados:
 
@@ -37,7 +37,7 @@ El proyecto se ejecutó mediante la colaboración de equipos especializados:
 
 ---
 
-## 💻 Código de Programación (Arduino para ESP32)
+##  Código de Programación (Arduino para ESP32)
 
 Este *firmware* gestiona la conexión con el control PS4 y utiliza la lógica de tracción diferencial y ajuste de velocidad (con el gatillo R2) para el control del carro.
 
