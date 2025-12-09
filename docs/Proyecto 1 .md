@@ -165,4 +165,25 @@ void setMotor(int leftMotor, int rightMotor) {
   }
 }
 
-```cpp
+```
+##  Desempeño y Resultados de la Competencia
+
+Los resultados validaron la robustez del diseño electrónico y la eficiencia de la programación:
+
+* **Movilidad Verificada:** El vehículo demostró una **movilidad impecable y controlada**, respondiendo de manera inmediata a los comandos del mando PS4.
+* **Ajuste Fino:** Las pruebas fueron cruciales para **calibrar la velocidad y la respuesta de los motores** y optimizar la pala frontal.
+* **Victoria Confirmada:** El robot interactuó eficazmente con el balón y **anotó consistentemente**, lo que se tradujo en una **victoria en la competencia** de fútbol de robots.
+* **Sinergia de Equipos:** La **integración** de las áreas de electrónica, programación y mecánica se realizó de manera fluida, culminando en un carro funcional y de alto rendimiento.
+
+---
+
+##  Conclusiones Finales
+
+El proyecto fue un **éxito integral** que demostró la aplicación práctica de la ingeniería de sistemas:
+
+* **Integración Exitosa:** Se logró una **sincronización robusta entre el hardware y el software**, estableciendo un sistema de control en tiempo real eficiente.
+* **Desarrollo de Habilidades:** El proceso reforzó capacidades esenciales como la **planificación, el trabajo en equipo y la resolución de problemas técnicos**.
+* **Objetivo Cumplido:** La funcionalidad del robot para **competir y jugar fútbol** fue probada con éxito, cumpliendo plenamente el objetivo inicial del proyecto.
+
+> **Reflexión:** Este proyecto subraya el valor de la **colaboración multidisciplinaria** (combinando creatividad, ingeniería y código) como el pilar fundamental para crear un producto tangible, educativo y de alto rendimiento.
+
