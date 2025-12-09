@@ -500,3 +500,33 @@ Para llevar este portafolio a un nivel superior, se proponen las siguientes exte
 * **Segmentación Avanzada (HSV Dinámico):** Permitir que el usuario o el sistema calibren los rangos HSV (`bajo` y `alto`) en tiempo real (por ejemplo, con *trackbars* de OpenCV) para mejorar la precisión de la detección bajo diferentes condiciones de iluminación.
 
 * **Integración de Redes:** Migrar la comunicación Bluetooth a **Wi-Fi/MQTT o Sockets TCP/IP** para un control de mayor alcance y mayor ancho de banda, lo cual es ideal para sistemas de monitoreo y control a nivel industrial o domótico.
+
+## Fotos y Videos de la práctica 
+
+<img src="../recursos/imgs/fc1.jpg" alt="Foto_Joy" width="200">
+
+<img src="../recursos/imgs/fc2.jpg" alt="Foto_Joy" width="200">
+
+<img src="../recursos/imgs/fc3.jpg" alt="Foto_Joy" width="200">
+
+<img src="../recursos/imgs/fc4.jpg" alt="Foto_Joy" width="200">
+
+<img src="../recursos/imgs/fc5.jpg" alt="Foto_Joy" width="200">
+
+<img src="../recursos/imgs/fc6.jpg" alt="Foto_Joy" width="200">
+
+<img src="../recursos/imgs/fc7.jpg" alt="Foto_Joy" width="200">
+
+<img src="../recursos/imgs/fc8.jpg" alt="Foto_Joy" width="200">
+
+<img src="../recursos/imgs/fc9.jpg" alt="Foto_Joy" width="200">
+
+<video width="400" controls>
+  <source src="../recursos/imgs/vc1.mp4" type="video/mp4">
+  Tu navegador no soporta la reproducción de video.
+</video>
+
+<video width="400" controls>
+  <source src="../recursos/imgs/vc2.mp4" type="video/mp4">
+  Tu navegador no soporta la reproducción de video.
+</video>
