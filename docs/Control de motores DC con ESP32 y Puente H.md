@@ -63,6 +63,8 @@ Controlar la dirección de rotación de un motor DC mediante el uso de un puente
 
 ### 5) Código
 
+---
+
 ```cpp
 
 
@@ -97,7 +99,9 @@ void loop() {
   delay(1000);
 }
 ```
+
 ---
+
 ## videos 
 <video width="400"  controls>
   <source src="../recursos/imgs/motor1.mp4" type="video/mp4">
@@ -105,6 +109,7 @@ void loop() {
 </video>
 
 ---
+
 ##  Práctica 2 – Control de potencia de un motor DC con ESP32 y PWM
 
 ### 1) Resumen  
@@ -162,6 +167,8 @@ Regular la velocidad de un motor DC utilizando señales PWM generadas por el ESP
 
 ### 5) Código
 
+---
+
 ```cpp
 #define IN1 27
 #define IN2 14
@@ -210,7 +217,9 @@ void loop() {
   delay(1000);
 }
 ```
+
 ---
+
 ## videos 
 <video width="400" controls>
   <source src="../recursos/imgs/motor2.mp4" type="video/mp4">
