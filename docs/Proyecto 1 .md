@@ -187,3 +187,17 @@ El proyecto fue un **éxito integral** que demostró la aplicación práctica de
 
 > **Reflexión:** Este proyecto subraya el valor de la **colaboración multidisciplinaria** (combinando creatividad, ingeniería y código) como el pilar fundamental para crear un producto tangible, educativo y de alto rendimiento.
 
+## Fotos y Videos 
+
+<img src="../recursos/imgs/ffc1.jpg" alt="Foto_Joy" width="200">
+
+<img src="../recursos/imgs/ffc2.jpg" alt="Foto_Joy" width="200">
+
+<img src="../recursos/imgs/ffc3.jpg" alt="Foto_Joy" width="200">
+
+<img src="../recursos/imgs/ffc4.jpg" alt="Foto_Joy" width="200">
+
+<video width="400" controls>
+  <source src="../recursos/imgs/vcc1.mp4" type="video/mp4">
+  Tu navegador no soporta la reproducción de video.
+</video>
