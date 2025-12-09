@@ -12,7 +12,7 @@ El sistema emplea una arquitectura avanzada que combina **Visión por Computador
 
 El proyecto se sustenta en tres pilares tecnológicos que trabajan en un lazo de **control cerrado (closed-loop)**:
 
-### 1. Visión por Computadora y Detección de Posición 👁️
+### 1. Visión por Computadora y Detección de Posición 
 
 Se utilizó Python junto con **OpenCV** para capturar el *stream* de video, actuando como el **sensor de posición** del sistema.
 
@@ -20,14 +20,14 @@ Se utilizó Python junto con **OpenCV** para capturar el *stream* de video, actu
 * **Error de Posición:** El Error se calcula como la **diferencia en píxeles** entre la posición actual de la pelota y el centro de la plataforma detectada. Este error es la entrada principal para el algoritmo de control.
 * **Detección Dual:** Se implementó una detección de dos objetos simultánea para calcular el error con respecto al centro de la plataforma, haciendo el sistema más robusto.
 
-### 2. Protocolo de Comunicación Serial Inalámbrica 📡
+### 2. Protocolo de Comunicación Serial Inalámbrica 
 
 Para la transmisión de datos, se empleó la comunicación **Bluetooth Serial** entre la PC (Python) y el hardware (ESP32).
 
 * **Función:** Garantiza una conexión inalámbrica de **baja latencia** necesaria para tareas de control en tiempo real.
 * **Mensaje:** El código Python calcula los **ángulos de corrección** y los envía como una cadena de texto en el formato **`X,Y\n`** al ESP32.
 
-### 3. Control de Inclinación y Algoritmo PID 📐
+### 3. Control de Inclinación y Algoritmo PID 
 
 Los servomotores fueron elegidos como actuadores por su capacidad de posicionamiento angular preciso.
 
@@ -353,7 +353,7 @@ while True:
                     if esp32.in_waiting > 0:
                         respuesta = esp32.readline().decode('utf-8', errors='ignore').strip()
                         if respuesta and frame_count % 30 == 0:
-                            print(f"📡 ESP32: {respuesta}")
+                            print(f" ESP32: {respuesta}")
                 except Exception as e:
                     if frame_count % 30 == 0:
                         print(f"✗ Error: {e}")
@@ -746,4 +746,3 @@ El proyecto de la Plataforma de Balanceo de Bola demostró la aplicación efecti
 </video>
 
 
-Este sistema valida la capacidad de la arquitectura **PC-Microcontrolador** para resolver problemas de **control dinámico** en lazo cerrado que requieren un alto poder de cómputo para la detección de errores en tiempo real.
