@@ -26,6 +26,8 @@ Estos ejercicios establecen la conexión fundamental con la cámara y demuestran
 
 Establece la conexión con la cámara (`cv2.VideoCapture(0)`) y muestra el *stream* hasta que se presiona la tecla 'q'.
 
+---
+
 ```python
 import cv2
 
@@ -45,9 +47,14 @@ while True:
 video.release() 
 cv2.destroyAllWindows()
 ```
+
+---
+
 ### 1.2. Conversión a Blanco y Negro (Escala de Grises)
 
 Aplica un filtro de color para transformar el video capturado a **escala de grises**, reduciendo la complejidad de la imagen a una **sola dimensión de intensidad**. Este es un paso fundamental en muchos algoritmos de visión por computadora para la detección de bordes y el procesamiento eficiente.
+
+---
 
 ```python
 import cv2
@@ -72,6 +79,7 @@ while True:
 video.release()
 cv2.destroyAllWindows()
 ```
+
 ---
 
 ## 2.  Manipulación de Canales de Color (Filtros Cromáticos)
@@ -81,6 +89,8 @@ Estos ejercicios demuestran cómo **anular o reordenar** los canales de color pr
 ### 2.1. Tonos Azules (Intercambio BGR a RGB)
 
 Al convertir de **BGR** (formato nativo de OpenCV) a **RGB** (formato estándar de visualización), el orden de los canales se invierte. Esta reordenación produce un predominio de **tonos azules y cianes** en la visualización, ya que los valores asignados al canal Azul se mueven al canal Rojo (índice 2) y viceversa.
+
+---
 
 ```python
 import cv2
@@ -105,9 +115,14 @@ while True:
 video.release()
 cv2.destroyAllWindows()
 ```
+
+---
+
 ### 2.2. Filtro Amarillo (Desactivando el Canal Azul)
 
 Para generar una fuerte predominancia de tonos **amarillos** y **rojos** (que combinados tienden al amarillo), se **anula completamente el canal Azul**. En la matriz de imagen **BGR** utilizada por OpenCV, el canal Azul se encuentra en el índice `0`.
+
+---
 
 ```python
 import cv2
@@ -134,9 +149,14 @@ while True:
 video.release()
 cv2.destroyAllWindows()
 ```
+
+---
+
 ### 2.3. Tonos Rosados/Magenta (Desactivando el Canal Verde)
 
 Para obtener una dominante de **tonos rosados o magenta**, se utiliza la combinación de los canales **Rojo** y **Azul** mientras se **anula completamente el canal Verde**. En la matriz BGR de OpenCV, el canal Verde se encuentra en el índice `1`.
+
+---
 
 ```python
 import cv2
@@ -163,6 +183,7 @@ while True:
 video.release()
 cv2.destroyAllWindows()
 ```
+
 ---
 
 ## 3.  Superposición de Gráficos Geométricos
@@ -172,6 +193,8 @@ Esta sección demuestra la capacidad de **dibujar figuras geométricas** (línea
 ### 3.1. Dibujo de Línea Cruzada y Rectángulo
 
 Este *script* dibuja una **línea diagonal** de esquina a esquina y un **rectángulo delimitador** que enmarca el video.
+
+---
 
 ```python
 import cv2
@@ -199,9 +222,14 @@ while True:
 video.release()
 cv2.destroyAllWindows()
 ```
+
+---
+
 ### 3.2. Línea, Rectángulo, Círculo y Animación
 
 Este ejercicio combina varias figuras geométricas y introduce el concepto de **animación** usando variables dinámicas (`cx`, `cy`). La actualización constante de estas variables simula el **movimiento del círculo** a través del *frame*, lo cual representa un concepto clave para visualizar el centro de un objeto en movimiento en aplicaciones de *tracking*.
+
+---
 
 ```python
 import cv2
@@ -241,11 +269,16 @@ while True:
 video.release()
 cv2.destroyAllWindows()
 ```
+
+---
+
 ### 3.3. División de la Cámara por Secciones de Color (ROI)
 
 Este ejercicio demuestra el concepto de **Región de Interés (ROI)** a través de la **indexación de matrices de NumPy**. Se aplica un filtro de color diferente a cada cuadrante del *frame* al anular selectivamente un canal de color en una porción específica de la matriz de la imagen.
 
 * **Nota:** Se asume una resolución estándar de 640x480 píxeles para la división de los cuadrantes.
+
+---
 
 ```python
 import cv2
@@ -278,6 +311,7 @@ while True:
 video.release()
 cv2.destroyAllWindows()
 ```
+
 ---
 
 ## 4. Seguimiento de Objeto (Tracking) y Control Remoto
@@ -287,6 +321,8 @@ Estos códigos aplican la **segmentación por color HSV** y el **cálculo de con
 ### 4.1. Detección y Tracking de Objeto por Color (Lógica Local)
 
 Este *script* localiza un objeto de color azul específico, calcula su posición (`x`, `y`) y la compara con el centro del *frame* para determinar el **error direccional** (`ErrorX`, `ErrorY`), imprimiéndolo en la consola. 
+
+---
 
 ```python
 import cv2
@@ -364,9 +400,14 @@ while True:
 video.release()
 cv2.destroyAllWindows()
 ```
+
+---
+
 ### 4.2. Tracking con Control Remoto (Bluetooth)
 
 Este es el ejercicio más avanzado, ya que **extiende la lógica de *tracking* local** añadiendo la **comunicación serial inalámbrica** mediante un *socket* Bluetooth. El *script* envía comandos direccionales (`IZQUIERDA`, `DERECHA`, `CENTRO`, etc.) a un dispositivo externo (como un microcontrolador **ESP32** o Arduino con módulo Bluetooth), permitiendo el control autónomo de un robot o actuador basado en la visión por computadora.
+
+---
 
 ```python
 import cv2
@@ -474,9 +515,10 @@ video.release()
 cv2.destroyAllWindows()
 sock.close() # Cierra la conexión Bluetooth
 ```
+
 ---
 
-## 5. 💡 Conclusión y Futuros Desarrollos
+## 5. Conclusión y Futuros Desarrollos
 
 ### 5.1. Conclusión del Proyecto
 
